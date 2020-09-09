@@ -1,0 +1,19 @@
+{
+  "name": "landing_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.8.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss css/style.css -o build/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
