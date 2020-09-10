@@ -4,96 +4,327 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<title>Ultimate Cart Drawer</title>
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="/css/slick.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
 	</head>
 	<body class="font-poppins">
 		<div class="bg-gradient-to-tr from-primary to-secondary">
-			<div class="p-10 bg-banner bg-cover bg-center">
+			<div class="p-10 bg-banner bg-cover bg-center xl:bg-fixed lg:p-5">
 				<div class="lg:container lg:mx-auto">
-					<div class="flex place-content-between items-center">
-						<h1>Upside Logo</h1>
-						<ul class="list-none flex text-white">
-							<li><a href="#" class="px-1">All Apps</a></li>
-							<li class="ml-5"><a href="#" class="px-1">Contact Us</a></li>
-							<li class="ml-5"><a href="#" class="px-5 py-2 bg-primary rounded-full">Install App</a></li>
+					<div class="flex place-content-between items-center sm:block">
+						<h1><img class="sm:mx-auto xsm:w-1/2" src="/images/logo.png" alt="" /></h1>
+						<ul class="list-none flex text-white sm:items-center sm:place-content-around sm:mt-10">
+							<li><a href="#" class="px-1 xsm:text-sm">All Apps</a></li>
+							<li class="ml-5 xsm:ml-2"><a href="#" class="px-1 xsm:text-sm">Contact Us</a></li>
+							<li class="ml-5 xsm:ml-2"><a href="#" class="px-5 py-2 bg-primary rounded-full capitalize xsm:text-sm">Install App</a></li>
 						</ul>
 					</div>
-					<div class="flex items-center pt-20 pb-10">
-						<div class="w-1/2">
-							<h2 class="text-6xl leading-tight text-white font-bold">Best app for increasing traffic.</h2>
-							<p class="font-base font-light text-white py-5">Quisque nisi magna, pretium a faucibus non, blandit quis nisl. Ut vehicula massa eget nulla egestas tempus. In posuere blandit ullamcorper. </p>
-							<a href="#" class="inline-block px-10 py-2 mt-5 border-solid border-white border-2 rounded-full text-lg text-white hover:bg-white hover:text-primary transition duration-200">Install App</a>
-							<a href="#" class="inline-block px-10 mt-5 py-2 border-white border-white border-2 rounded-full text-primary text-lg bg-white ml-2 hover:bg-transparent hover:text-white transition duration-200">Learn more</a>
+					<div class="flex items-center pt-20 pb-10 md:flex-wrap">
+						<div class="w-1/2 md:w-full md:order-2 md:text-center">
+							<h2 class="text-6xl lg:text-4xl xsm:text-xl leading-tight text-white font-bold xsm:text-xl">Best app for increasing traffic.</h2>
+							<p class="font-base font-light text-white py-5 xsm:text-sm">Quisque nisi magna, pretium a faucibus non, blandit quis nisl. Ut vehicula massa eget nulla egestas tempus. In posuere blandit ullamcorper. </p>
+							<a href="#" class="inline-block px-10 py-2 mt-5 border-solid border-white border-2 rounded-full text-lg text-white hover:bg-white hover:text-primary transition duration-200 capitalize lg:px-6 xsm:text-sm xsm:block">Install app</a>
+							<a href="#" class="inline-block px-10 mt-5 py-2 border-white border-white border-2 rounded-full text-primary text-lg bg-white ml-2 hover:bg-transparent hover:text-white transition duration-200 capitalize lg:px-6 xsm:text-sm xsm:block xsm:ml-0">Learn more</a>
 						</div>
-						<div class="w-1/2 text-center">
+						<div class="w-1/2 text-center md:w-full md:order-1 md:pb-10">
 							<img class="mx-auto" src="/images/mobile1.png" alt="" />
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="bg-right-top bg-choose bg-no-repeat py-20">
+		<div class="bg-right-top bg-choose bg-no-repeat py-20 xsm:py-10 xl:bg-fixed">
 			<div class="lg:container lg:mx-auto">
-				<h2 class="text-center text-6xl font-bold">Why Choose Us</h2>
+				<h2 class="text-center text-6xl lg:text-4xl xsm:text-xl font-bold">Why Choose Us</h2>
 				<p class="text-sm text-center text-dark-8">Lorem ipsum dolor sit amet</p>
 				<div class="flex flex-wrap">
-					<div class="w-1/3 px-5 pt-20">
+					<div class="w-1/3 px-5 pt-20 md:w-1/2 xsm:w-full xsm:pt-10">
 						<div class="mx-auto w-130 h-130 rounded-full bg-white shadow-xl-center flex items-center place-content-center">
 							<img src="/images/updates.png" alt="" />
 						</div>
-						<h3 class="font-semibold text-center text-3xl pt-10">Lifetime Updates</h3>
+						<h3 class="font-semibold text-center lg:text-2xl text-3xl pt-10">Lifetime Updates</h3>
 						<p class="text-center text-base pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
 					</div>
-					<div class="w-1/3 px-5 pt-20">
+					<div class="w-1/3 px-5 pt-20 md:w-1/2 xsm:w-full xsm:pt-10">
 						<div class="mx-auto w-130 h-130 rounded-full bg-white shadow-xl-center flex items-center place-content-center">
 							<img src="/images/platform.png" alt="" />
 						</div>
-						<h3 class="font-semibold text-center text-3xl pt-10">Cross Platform</h3>
+						<h3 class="font-semibold text-center lg:text-2xl text-3xl pt-10">Cross Platform</h3>
 						<p class="text-center text-base pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
 					</div>
-					<div class="w-1/3 px-5 pt-20">
+					<div class="w-1/3 px-5 pt-20 md:w-1/2 xsm:w-full xsm:pt-10">
 						<div class="mx-auto w-130 h-130 rounded-full bg-white shadow-xl-center flex items-center place-content-center">
 							<img src="/images/design.png" alt="" />
 						</div>
-						<h3 class="font-semibold text-center text-3xl pt-10">Modern Design</h3>
+						<h3 class="font-semibold text-center lg:text-2xl text-3xl pt-10">Modern Design</h3>
 						<p class="text-center text-base pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
 					</div>
-					<div class="w-1/3 px-5 pt-20">
+					<div class="w-1/3 px-5 pt-20 md:w-1/2 xsm:w-full xsm:pt-10">
 						<div class="mx-auto w-130 h-130 rounded-full bg-white shadow-xl-center flex items-center place-content-center">
 							<img src="/images/edit.png" alt="" />
 						</div>
-						<h3 class="font-semibold text-center text-3xl pt-10">Drag-drop Edit</h3>
+						<h3 class="font-semibold text-center lg:text-2xl text-3xl pt-10">Drag-drop Edit</h3>
 						<p class="text-center text-base pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
 					</div>
-					<div class="w-1/3 px-5 pt-20">
+					<div class="w-1/3 px-5 pt-20 md:w-1/2 xsm:w-full xsm:pt-10">
 						<div class="mx-auto w-130 h-130 rounded-full bg-white shadow-xl-center flex items-center place-content-center">
 							<img src="/images/code.png" alt="" />
 						</div>
-						<h3 class="font-semibold text-center text-3xl pt-10">Clean Code</h3>
+						<h3 class="font-semibold text-center lg:text-2xl text-3xl pt-10">Clean Code</h3>
 						<p class="text-center text-base pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
 					</div>
-					<div class="w-1/3 px-5 pt-20">
+					<div class="w-1/3 px-5 pt-20 md:w-1/2 xsm:w-full xsm:pt-10">
 						<div class="mx-auto w-130 h-130 rounded-full bg-white shadow-xl-center flex items-center place-content-center">
 							<img src="/images/secure.png" alt="" />
 						</div>
-						<h3 class="font-semibold text-center text-3xl pt-10">Secure</h3>
+						<h3 class="font-semibold text-center lg:text-2xl text-3xl pt-10">Secure</h3>
 						<p class="text-center text-base pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="bg-shade-light py-20">
-			<div class="xl:container xl:mx-auto">
-				<div class="flex">
-					<div class="w-1/2">
+		<div class="bg-shade-light py-20 xsm:py-10">
+			<div class="xl:container xl:mx-auto px-5">
+				<div class="flex md:flex-wrap">
+					<div class="w-1/2 flex items-center md:w-full">
 						<img class="mx-auto" src="/images/advantage.png" alt="" />
 					</div>
-					<div class="w-1/2 pl-5">
-						<h2 class="text-6xl font-bold leading-tight">Advantages of our app</h2>
+					<div class="w-1/2 pl-5 md:w-full md:pt-20 xsm:pt-10 xsm:pl-0">
+						<h2 class="text-6xl lg:text-4xl xsm:text-xl font-bold leading-tight xsm:text-center">Advantages of our app</h2>
+						<ul class="mt-10 pl-3 text-base list-none">
+							<li class="mt-2 pl-8 bg-tick bg-no-repeat bg-left">Lorem Ipsum is simply dummy text the printing</li>
+							<li class="mt-2 pl-8 bg-tick bg-no-repeat bg-left">Lorem Ipsum is simply dummy text the printing</li>
+							<li class="mt-2 pl-8 bg-tick bg-no-repeat bg-left">Lorem Ipsum is simply dummy text the printing</li>
+							<li class="mt-2 pl-8 bg-tick bg-no-repeat bg-left">Lorem Ipsum is simply dummy text the printing</li>
+							<li class="mt-2 pl-8 bg-tick bg-no-repeat bg-left">Lorem Ipsum is simply dummy text the printing</li>
+						</ul>
+						<a href="#" class="inline-block px-10 py-2 bg-primary rounded-full text-white text-base mt-10 border-2 border-solid border-primary hover:bg-transparent hover:text-primary transition duration-200 capitalize xsm:block xsm:text-center">All Features</a>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="bg-pattern bg-no-repeat bg-left py-20 xsm:py-10 xl:bg-fixed">
+			<div class="xl:container xl:mx-auto px-5">
+				<div class="flex items-center md:flex-wrap">
+					<div class="w-1/2 pr-5 md:w-full md:order-2 md:pt-10 md:pr-0 xsm:text-center">
+						<h2 class="text-6xl lg:text-4xl xsm:text-xl font-bold">Section heading</h2>
+						<p class="mt-10 text-base pr-12 xsm:pr-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries<br /><br />
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+						<a href="#" class="inline-block px-10 py-2 bg-primary rounded-full text-white text-base mt-10 border-2 border-solid border-primary hover:bg-transparent hover:text-primary transition duration-200">Read more</a>
+					</div>
+					<div class="w-1/2 pl-5 md:w-full md:order-1">
+						<img class="mx-auto" src="/images/image2.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bg-stats bg-cover xl:bg-fixed bg-center bg-no-repeat py-20 md:pb-0 xsm:pt-10">
+			<div class="xl:container xl:mx-auto px-5">
+				<h2 class="text-6xl lg:text-4xl xsm:text-xl text-center text-white font-bold">Section heading</h2>
+				<div class="flex text-center text-white mt-10 md:flex-wrap xsm:mt-3">
+					<div class="w-1/3 px-10 md:w-full md:pb-10">
+						<p class="-mb-2 text-90 font-bold italic leading-tight">886</p>
+						<p class="-mt-3 text-base font-light leading-tight">active users</p>
+					</div>
+					<div class="w-1/3 px-10 md:w-full md:pb-10">
+						<p class="-mb-2 text-90 font-bold italic leading-tight">49</p>
+						<p class="-mt-3 text-base font-light leading-tight">reviews</p>
+					</div>
+					<div class="w-1/3 px-10 md:w-full md:pb-10">
+						<p class="-mb-2 text-90 font-bold italic leading-tight">80</p>
+						<p class="-mt-3 text-base font-light leading-tight">countries</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="py-20 xsm:py-10">
+			<div class="xl:container xl:mx-auto px-5">
+				<h2 class="text-6xl lg:text-4xl xsm:text-xl text-center font-bold">What people are saying about us</h2>
+				<div class="testimonials-slider pt-10">
+					<div class="slide pt-20">
+						<div class="testimonial-item mb-20 xsm:mb-10 border border-solid border-shade-eee bg-white rounded-2lg relative p-10 text-center">
+							<img class="absolute inset-y-0 inset-x-1/2 transform -translate-x-1/2 -translate-y-1/2" src="/images/customer.png" alt="" />
+							<p class="mt-10 text-base font-bold">Simmy</p>
+							<p class="text-base mt-3 lg:text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+						</div>
+					</div>
+					<div class="slide pt-20">
+						<div class="testimonial-item mb-20 xsm:mb-10 border border-solid border-shade-eee bg-white rounded-2lg relative p-10 text-center">
+							<img class="absolute inset-y-0 inset-x-1/2 transform -translate-x-1/2 -translate-y-1/2" src="/images/customer.png" alt="" />
+							<p class="mt-10 text-base font-bold">Simmy</p>
+							<p class="text-base mt-3 lg:text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+						</div>
+					</div>
+					<div class="slide pt-20">
+						<div class="testimonial-item mb-20 xsm:mb-10 border border-solid border-shade-eee bg-white rounded-2lg relative p-10 text-center">
+							<img class="absolute inset-y-0 inset-x-1/2 transform -translate-x-1/2 -translate-y-1/2" src="/images/customer.png" alt="" />
+							<p class="mt-10 text-base font-bold">Simmy</p>
+							<p class="text-base mt-3 lg:text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+						</div>
+					</div>
+					<div class="slide pt-20">
+						<div class="testimonial-item mb-20 xsm:mb-10 border border-solid border-shade-eee bg-white rounded-2lg relative p-10 text-center">
+							<img class="absolute inset-y-0 inset-x-1/2 transform -translate-x-1/2 -translate-y-1/2" src="/images/customer.png" alt="" />
+							<p class="mt-10 text-base font-bold">Simmy</p>
+							<p class="text-base mt-3 lg:text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+						</div>
+					</div>
+					<div class="slide pt-20">
+						<div class="testimonial-item mb-20 xsm:mb-10 border border-solid border-shade-eee bg-white rounded-2lg relative p-10 text-center">
+							<img class="absolute inset-y-0 inset-x-1/2 transform -translate-x-1/2 -translate-y-1/2" src="/images/customer.png" alt="" />
+							<p class="mt-10 text-base font-bold">Simmy</p>
+							<p class="text-base mt-3 lg:text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+						</div>
+					</div>
+					<div class="slide pt-20">
+						<div class="testimonial-item mb-20 xsm:mb-10 border border-solid border-shade-eee bg-white rounded-2lg relative p-10 text-center">
+							<img class="absolute inset-y-0 inset-x-1/2 transform -translate-x-1/2 -translate-y-1/2" src="/images/customer.png" alt="" />
+							<p class="mt-10 text-base font-bold">Simmy</p>
+							<p class="text-base mt-3 lg:text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+						</div>
+					</div>
+					<div class="slide pt-20">
+						<div class="testimonial-item mb-20 xsm:mb-10 border border-solid border-shade-eee bg-white rounded-2lg relative p-10 text-center">
+							<img class="absolute inset-y-0 inset-x-1/2 transform -translate-x-1/2 -translate-y-1/2" src="/images/customer.png" alt="" />
+							<p class="mt-10 text-base font-bold">Simmy</p>
+							<p class="text-base mt-3 lg:text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+						</div>
+					</div>
+					<div class="slide pt-20">
+						<div class="testimonial-item mb-20 xsm:mb-10 border border-solid border-shade-eee bg-white rounded-2lg relative p-10 text-center">
+							<img class="absolute inset-y-0 inset-x-1/2 transform -translate-x-1/2 -translate-y-1/2" src="/images/customer.png" alt="" />
+							<p class="mt-10 text-base font-bold">Simmy</p>
+							<p class="text-base mt-3 lg:text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+						</div>
+					</div>
+					<div class="slide pt-20">
+						<div class="testimonial-item mb-20 xsm:mb-10 border border-solid border-shade-eee bg-white rounded-2lg relative p-10 text-center">
+							<img class="absolute inset-y-0 inset-x-1/2 transform -translate-x-1/2 -translate-y-1/2" src="/images/customer.png" alt="" />
+							<p class="mt-10 text-base font-bold">Simmy</p>
+							<p class="text-base mt-3 lg:text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+						</div>
+					</div>
+					<div class="slide pt-20">
+						<div class="testimonial-item mb-20 xsm:mb-10 border border-solid border-shade-eee bg-white rounded-2lg relative p-10 text-center">
+							<img class="absolute inset-y-0 inset-x-1/2 transform -translate-x-1/2 -translate-y-1/2" src="/images/customer.png" alt="" />
+							<p class="mt-10 text-base font-bold">Simmy</p>
+							<p class="text-base mt-3 lg:text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+						</div>
+					</div>
+					<div class="slide pt-20">
+						<div class="testimonial-item mb-20 xsm:mb-10 border border-solid border-shade-eee bg-white rounded-2lg relative p-10 text-center">
+							<img class="absolute inset-y-0 inset-x-1/2 transform -translate-x-1/2 -translate-y-1/2" src="/images/customer.png" alt="" />
+							<p class="mt-10 text-base font-bold">Simmy</p>
+							<p class="text-base mt-3 lg:text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+						</div>
+					</div>
+					<div class="slide pt-20">
+						<div class="testimonial-item mb-20 xsm:mb-10 border border-solid border-shade-eee bg-white rounded-2lg relative p-10 text-center">
+							<img class="absolute inset-y-0 inset-x-1/2 transform -translate-x-1/2 -translate-y-1/2" src="/images/customer.png" alt="" />
+							<p class="mt-10 text-base font-bold">Simmy</p>
+							<p class="text-base mt-3 lg:text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="py-20 xsm:py-10 bg-pricing xl:bg-fixed bg-center bg-cover bg-no-repeat">
+			<div class="xl:container xl:mx-auto px-5">
+				<h2 class="text-6xl lg:text-4xl xsm:text-xl text-center text-white font-bold leading-tight">Our Plans</h2>
+				<div class="flex text-center text-white mt-20 md:block xsm:mt-10">
+					<div class="w-1/3 xl:px-10 px-5 lg:px-2 md:w-full">
+						<div class="bg-white rounded-2lg">
+							<div class="p-10 bg-primary rounded-t-2lg">
+								<h3 class="lg:text-2xl text-3xl text-white font-semibold">Basic Plan</h3>
+								<h4 class="text-5xl text-white font-bold leading-tight mt-2">$29.99</h4>
+								<span class="text-sm font-normal block -mt-1 leading-tight">(per month)</span>
+							</div>
+							<ul class="text-left">
+								<li class="p-5 text-black border-b border-solid border-eee lg:p-4 lg:text-sm">Lorem Ipsum is simply dummy text of the printing</li>
+								<li class="p-5 text-black border-b border-solid border-eee lg:p-4 lg:text-sm">Lorem Ipsum is simply dummy text of the printing</li>
+								<li class="p-5 text-black border-b border-solid border-eee lg:p-4 lg:text-sm">Lorem Ipsum is simply dummy text of the printing</li>
+								<li class="p-5 text-black border-b border-solid border-eee lg:p-4 lg:text-sm">Lorem Ipsum is simply dummy text of the printing</li>
+								<li class="p-5 text-black border-b border-solid border-eee lg:p-4 lg:text-sm">Lorem Ipsum is simply dummy text of the printing</li>
+							</ul>
+							<div class="p-5">
+								<a href="#" class="py-3 border-2 border-solid border-primary px-5 block text-white bg-primary rounded-full hover:bg-transparent hover:text-primary text-base capitalize transition duration-200">Install App</a>
+							</div>
+						</div>
+					</div>
+					<div class="w-1/3 xl:px-10 px-5 lg:px-2 md:w-full md:pt-20 xsm:pt-10">
+						<div class="bg-white rounded-2lg shadow-xl-center">
+							<div class="p-10 bg-primary rounded-t-2lg">
+								<h3 class="lg:text-2xl text-3xl text-white font-semibold">Silver Plan</h3>
+								<h4 class="text-5xl text-white font-bold leading-tight mt-2">$29.99</h4>
+								<span class="text-sm font-normal block -mt-1 leading-tight">(per year)</span>
+							</div>
+							<ul class="text-left">
+								<li class="p-5 text-black border-b border-solid border-eee lg:p-4 lg:text-sm">Lorem Ipsum is simply dummy text of the printing</li>
+								<li class="p-5 text-black border-b border-solid border-eee lg:p-4 lg:text-sm">Lorem Ipsum is simply dummy text of the printing</li>
+								<li class="p-5 text-black border-b border-solid border-eee lg:p-4 lg:text-sm">Lorem Ipsum is simply dummy text of the printing</li>
+								<li class="p-5 text-black border-b border-solid border-eee lg:p-4 lg:text-sm">Lorem Ipsum is simply dummy text of the printing</li>
+								<li class="p-5 text-black border-b border-solid border-eee lg:p-4 lg:text-sm">Lorem Ipsum is simply dummy text of the printing</li>
+							</ul>
+							<div class="p-5">
+								<a href="#" class="py-3 border-2 border-solid border-primary px-5 block text-white bg-primary rounded-full hover:bg-transparent hover:text-primary text-base capitalize transition duration-200">Install App</a>
+							</div>
+						</div>
+					</div>
+					<div class="w-1/3 xl:px-10 px-5 lg:px-2 md:w-full md:pt-20 xsm:pt-10">
+						<div class="bg-white rounded-2lg">
+							<div class="p-10 bg-primary rounded-t-2lg">
+								<h3 class="lg:text-2xl text-3xl text-white font-semibold">Gold Plan</h3>
+								<h4 class="text-5xl text-white font-bold leading-tight mt-2">$29.99</h4>
+								<span class="text-sm font-normal block -mt-1 leading-tight">(lifetime)</span>
+							</div>
+							<ul class="text-left">
+								<li class="p-5 text-black border-b border-solid border-eee lg:p-4 lg:text-sm">Lorem Ipsum is simply dummy text of the printing</li>
+								<li class="p-5 text-black border-b border-solid border-eee lg:p-4 lg:text-sm">Lorem Ipsum is simply dummy text of the printing</li>
+								<li class="p-5 text-black border-b border-solid border-eee lg:p-4 lg:text-sm">Lorem Ipsum is simply dummy text of the printing</li>
+								<li class="p-5 text-black border-b border-solid border-eee lg:p-4 lg:text-sm">Lorem Ipsum is simply dummy text of the printing</li>
+								<li class="p-5 text-black border-b border-solid border-eee lg:p-4 lg:text-sm">Lorem Ipsum is simply dummy text of the printing</li>
+							</ul>
+							<div class="p-5">
+								<a href="#" class="py-3 border-2 border-solid border-primary px-5 block text-white bg-primary rounded-full hover:bg-transparent hover:text-primary text-base capitalize transition duration-200">Install App</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="py-20 xsm:py-10">
+			<div class="xl:container xl:mx-auto px-5">
+				<h2 class="text-6xl lg:text-4xl xsm:text-xl text-center font-bold leading-tight">Have a Question? Contact Us.</h2>
+				<form action="" class="w-3/4 mx-auto mt-20 xsm:mt-10 xsm:w-full">
+					<div>
+						<label class="block text-base mt-5 mb-2">Full Name</label>
+						<input class="px-4 py-2 focus:border-black border border-solid border-gray-400 text-black w-full" type="text" placeholder="Enter full name" />
+					</div>
+					<div>
+						<label class="block text-base mt-5 mb-2">Email</label>
+						<input class="px-4 py-2 focus:border-black border border-solid border-gray-400 text-black w-full" type="email" placeholder="Enter email address" />
+					</div>
+					<div>
+						<label class="block text-base mt-5 mb-2">Subject</label>
+						<input class="px-4 py-2 focus:border-black border border-solid border-gray-400 text-black w-full" type="text" placeholder="Subject" />
+					</div>
+					<div>
+						<label class="block text-base mt-5 mb-2">Message</label>
+						<textarea class="px-4 h-130 resize-none py-2 focus:border-black border border-solid border-gray-400 text-black w-full" placeholder="Enter message"></textarea>
+					</div>
+					<input type="submit" value="submit" class="py-3 border-2 border-solid border-primary px-20 block text-white bg-primary rounded-full hover:bg-transparent hover:text-primary text-base capitalize transition duration-200 ml-auto mt-10 cursor-pointer xsm:w-full xsm:text-center xsm:mt-5" />
+				</form>
+			</div>
+		</div>
+		<div class="py-5 bg-shade-light">
+			<div class="xl:container xl:mx-auto px-5">
+				<p class="text-sm text-center">&copy; Copyright Sellify Apps 2020. All rights reserved.</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="/js/jquery-3.4.1.js"></script>
+		<script type="text/javascript" src="/js/slick.min.js"></script>
+		<script type="text/javascript" src="/js/custom.js"></script>
 	</body>
 </html>
