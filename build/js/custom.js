@@ -16,3 +16,13 @@ $(document).ready(function(){
                 ]
         });
 });
+
+$(document).on('click', '.scrollToBtn', function(){
+        var $this = $(this),
+        $id = $( $this.attr('href') ),
+        $offset = $id.offset().top;
+        $( 'html, body' ).animate({
+                'scrollTop': $offset
+        });
+        return false;
+});
